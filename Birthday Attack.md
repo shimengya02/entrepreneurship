@@ -33,5 +33,7 @@
                 print("True")
                 print(x),print(y)
         print("计数器:",j)
-    # 实验截图
-    
+# 实验截图
+因为时间256位攻击时间太长了，所以这里就放了过程
+![生日攻击](https://user-images.githubusercontent.com/109722365/181865217-4993f292-d608-44b2-8413-d1ead02ed475.png)
+
