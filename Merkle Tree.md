@@ -1,4 +1,11 @@
-# Impl Merkle Tree following RFC6962 
+# 实验项目
+Impl Merkle Tree following RFC6962 
+# 实验完成人
+姓名：时梦雅
+
+学号：202000460054
+# 运行指导
+可以直接运行
 # 实验思路
 给定一系列数据块 data blocks，对 data blocks 分别用 sha256算法计算哈希值每条数据进行 hash，从第 0 条数据开始，对每两个交易的哈希(hash)相加结果进行哈希(hash)，然后多次迭代直到最后只有一个哈希值，该哈希值就是默克尔根(Merkle root)，整个树状结构数据就是默克尔树。根据 RFC 6962 标准，如果是奇数个结点，就将最后一个结点不断上移到树的上一层，直到加上该结点，树的该层结点数为偶数，这时就可以两两进行合并。Merkle Tree 可以用来检验数据的完整性和正确性，即一个 data block 的改动或缺失，就会导致 Merkle root 的改变。
 # 代码实现
