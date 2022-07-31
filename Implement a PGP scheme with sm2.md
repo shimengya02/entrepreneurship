@@ -1,6 +1,13 @@
 # 实验题目
 Implement a PGP scheme with sm2
+# 实验完成人
+姓名：时梦雅
+
+学号：202000460054
+# 运行指导
+可以直接运行
 # 实验思路
+![PGP](https://user-images.githubusercontent.com/109722365/182006407-15c09670-3114-4ad7-b6b9-7398545fdfd7.jpg)
 
 # 实验代码
     from Crypto.Cipher import AES
