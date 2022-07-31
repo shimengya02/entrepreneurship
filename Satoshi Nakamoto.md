@@ -137,13 +137,6 @@
             raise ValueError("Must be an integer!")
         # 签名
         s = Sign(x, d, n)
-        # # 验证
-        # x_ = Verify(s, e, n)
-        # Valid = (x_ == x)
-        #
-        # # Attack
-        # s_ = random.randint(1, (p - 1) * (q - 1))
-        # m_ = random.randint(1, (p - 1) * (q - 1))
         #Output
         print("Private Key: ")
         print("N: ", n)
