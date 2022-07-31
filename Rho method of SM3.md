@@ -1,4 +1,11 @@
-# Rho method of SM3
+# 实验项目
+Rho method of SM3
+# 实验完成人
+姓名：时梦雅
+
+学号：202000460054
+# 运行指导
+可以直接运行
 # 实验思路
 在0与m-1之间随即选取2个数a,b:
 若m没有真因子则出现 a=b(mod m) 的情况只有一种即a=b的情况；
@@ -45,3 +52,5 @@
             Rho.add(ysec)
             
 # 实验截图
+因为复杂度太大了，跑出来所需时间过长，所以这里只截取了过程。
+![Rho](https://user-images.githubusercontent.com/109722365/182006606-1ceae263-d1ae-400f-9a76-a85fa984c1c9.png)
