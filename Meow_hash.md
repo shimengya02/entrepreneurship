@@ -1,4 +1,11 @@
-# 此代码为项目：Find a key with hash value "sdu_cst_20220610" under a message composed of your name followed by your student ID. 
+# 实验名称
+Find a key with hash value "sdu_cst_20220610" under a message composed of your name followed by your student ID. 
+# 实验完成人
+姓名：时梦雅
+
+学号：202000460054
+# 运行指导
+可以直接运行
 # 实验思路
 Meow哈希采用1024位密钥，零字节或更多字节的消息，并产生128位哈希。
 # 实验步骤
